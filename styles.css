@@ -1,0 +1,7 @@
+* { font-family: Arial, Helvetica, sans-serif; box-sizing: border-box; }
+body { max-width: 600px; margin: 0 auto; padding: 10px; }
+#select, #result, #vid, #go { width: 100%; padding: 10px; margin: 5px 0; }
+#select { border: 1px solid #ffb6b6; background: #ffe7e7; }
+#result { resize: none; height: 100px; border: 1px solid #c0bfff; background: #dceaff; }
+#vid { height: 400px; }
+#go { color: #fff; background: #5145b5; border: 0; cursor: pointer; }
