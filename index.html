@@ -71,8 +71,8 @@
           tessedit_do_invert: '0' // Do not invert the image
         });
 
-        const cleanText = result.data.text.replace(/[\n\r\t]+/g, ' ');
-        webkam.hRes.value = cleanText;     
+        webkam.hRes.value = result.data.text;
+    
        },
     };
 
